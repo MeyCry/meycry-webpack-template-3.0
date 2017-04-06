@@ -1,7 +1,7 @@
 {
   "name": "webpack-template-3.0",
   "version": "1.0.0",
-  "description": "Hello world.",
+  "description": "meycry blank template for start simple projects.",
   "main": "Server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
