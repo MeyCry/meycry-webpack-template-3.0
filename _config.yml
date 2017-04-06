@@ -1,2 +1,6 @@
 theme: jekyll-theme-cayman
-source: ./public
+defaults:
+  - scope:
+      path: "public"
+    values:
+      image: true
