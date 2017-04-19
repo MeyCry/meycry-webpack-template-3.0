@@ -27,12 +27,16 @@ CounterStore.dispatcherIndex = Dispatcher.register((payload) => {
 
   switch (payload.source) {
     case "VIEW_ACTION":
+
       switch (action.actionType) {
         case "setValue":
           _counter = value;
           break;
+
+        default: return true
       }
       break;
+    default: return true;
   }
 
   CounterStore.emitChange();

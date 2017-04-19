@@ -1,6 +1,6 @@
 import Dispatcher from "../dispatcher/Dispatcher";
 
-let ActionsCounter = {
+const ActionsCounter = {
   setValue: function (value) {
     Dispatcher.handleViewAction({
       actionType: "setValue",
